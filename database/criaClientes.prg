@@ -14,3 +14,16 @@ function main()
     DBCreate( "CLIENTES.DBF", aDBStruct )
 
 return nil
+
+/* 
+
+1) Executar o HBRUN com o nome do programa, para criar o arquivo DBF 
+2) Executar o HBRUN, sem nenhum parametro adicional para entrar no console
+3) Dentro do HBRUN digitar:
+    USE "nome_do_dbf"
+    browse()
+
+
+    use clientes
+    browse()
+*/
