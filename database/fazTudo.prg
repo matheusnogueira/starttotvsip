@@ -52,7 +52,7 @@ Static Function ListaDBClientes()
                   CLI->(dbSkip())
             enddo
       else
-            qOut("Não encontrado")
+            qOut("Nao encontrado")
       endif
       
       qOut("")
@@ -122,7 +122,7 @@ Static Function PopulaDBClientes()
             CLI->CREDITO      := 2000.00
       CLI->(dbCommit())      
 
-      CLI->(dbCloseArea())      
+      CLI->(dbCloseArea())    
 
 return nil
 
